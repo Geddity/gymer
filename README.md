@@ -44,11 +44,11 @@
 
 ### 1. Клонирование репозитория
 
-```bash
-git clone https://github.com/yourusername/gymer.git
-cd gymer
+    bash
+    git clone https://github.com/yourusername/gymer.git
+    cd gymer
 
-2. Установка зависимостей
+### 2. Установка зависимостей
 
 Проект использует только стандартные библиотеки Python, дополнительная установка не требуется:
 
@@ -60,13 +60,13 @@ cd gymer
 
     datetime - для работы с датами
 
-3. Запуск приложения
+### 3. Запуск приложения
 
-bash
+    bash
+    
+    python main.py
 
-python main.py
-
-🚀 Использование
+## 🚀 Использование
 Первый запуск
 
     При первом запуске создайте нового пользователя
@@ -131,7 +131,7 @@ python main.py
 
         Нажмите "Delete Preset" и выберите пресет для удаления
 
-📁 Структура проекта
+## 📁 Структура проекта
 text
 
 gymer/
@@ -149,7 +149,7 @@ gymer/
 │
 └── user_data.db
 
-🗄️ База данных
+## 🗄️ База данных
 
 Приложение использует SQLite для хранения данных. Основные таблицы:
 
@@ -163,11 +163,11 @@ gymer/
 
     last_user_data - последний пользователь
 
-📄 Лицензия
+## 📄 Лицензия
 
 Этот проект распространяется под лицензией MIT. Подробности в файле LICENSE.
 
-📸 Скриншоты
+## 📸 Скриншоты
 
 https://github.com/Geddity/gymer/blob/main/screenshots/main_window.jpg
 https://github.com/Geddity/gymer/blob/main/screenshots/stats_window.jpg
