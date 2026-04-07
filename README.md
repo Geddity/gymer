@@ -43,7 +43,8 @@
 
 ### 1. Клонирование репозитория
 
-```bash
+bash
+
 git clone https://github.com/Geddity/gymer.git
 cd gymer
 
@@ -60,12 +61,12 @@ cd gymer
     datetime - для работы с датами
 
 3. Запуск приложения
+
 bash
 
 python main.py
 
 🚀 Использование
-Первый запуск
 
     При первом запуске создайте нового пользователя
 
@@ -130,7 +131,6 @@ python main.py
         Нажмите "Delete Preset" и выберите пресет для удаления
 
 📁 Структура проекта
-text
 
 gymer/
 ├── main.py              # Главный файл приложения
