@@ -141,7 +141,13 @@ gymer/
 ├── workouts.py         # Класс для управления тренировками
 ├── presets.py          # Класс для управления пресетами
 ├── debugs.py            # Отладочные функции
-└── user_data.db        # База данных SQLite (создается автоматически)
+│
+├── screenshots/          
+│   ├── main_window.jpg
+│   ├── stats_window.jpg
+│   └── detailed_stats.jpg
+│
+└── user_data.db
 
 🗄️ База данных
 
@@ -160,3 +166,9 @@ gymer/
 📄 Лицензия
 
 Этот проект распространяется под лицензией MIT. Подробности в файле LICENSE.
+
+📸 Скриншоты
+
+https://github.com/Geddity/gymer/blob/main/screenshots/main_window.jpg
+https://github.com/Geddity/gymer/blob/main/screenshots/stats_window.jpg
+https://github.com/Geddity/gymer/blob/main/screenshots/detailed_stats.jpg
