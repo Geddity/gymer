@@ -45,6 +45,7 @@
 ### 1. Клонирование репозитория
 
     bash
+    
     git clone https://github.com/yourusername/gymer.git
     cd gymer
 
@@ -132,7 +133,6 @@
         Нажмите "Delete Preset" и выберите пресет для удаления
 
 ## 📁 Структура проекта
-
     
     gymer/
     ├── main.py              # Главный файл приложения
@@ -142,10 +142,14 @@
     ├── presets.py          # Класс для управления пресетами
     ├── debugs.py            # Отладочные функции
     │
-    ├── screenshots/          
+    ├── screenshots/         # Скриншоты
     │   ├── main_window.jpg
     │   ├── stats_window.jpg
-    │   └── detailed_stats.jpg
+    │   ├── detailed_stats.jpg
+    │   └── thumb/             
+    │        ├── main_window_th.jpg
+    │        ├── stats_window_th.jpg
+    │        └── detailed_stats_th.jpg
     │
     └── user_data.db
 
