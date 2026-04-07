@@ -67,7 +67,7 @@
     python main.py
 
 ## 🚀 Использование
-Первый запуск
+### Первый запуск
 
     При первом запуске создайте нового пользователя
 
@@ -75,7 +75,7 @@
 
     Приложение автоматически создаст две тренировочные вкладки
 
-Создание тренировки
+### Создание тренировки
 
     Добавление упражнения: Введите название и нажмите "Add Exercise"
 
@@ -91,7 +91,7 @@
 
         Введите количество повторений в каждом подходе
 
-Сохранение результатов
+### Сохранение результатов
 
     Заполните все упражнения
 
@@ -101,7 +101,7 @@
 
     Нажмите "Save"
 
-Просмотр статистики
+### Просмотр статистики
 
     Нажмите "Show Stats" для выбранной тренировки
 
@@ -115,7 +115,7 @@
 
         ⚪ Серый - без изменений
 
-Управление пресетами
+### Управление пресетами
 
     Сохранение пресета:
 
@@ -132,22 +132,22 @@
         Нажмите "Delete Preset" и выберите пресет для удаления
 
 ## 📁 Структура проекта
-text
 
-gymer/
-├── main.py              # Главный файл приложения
-├── exercises.py         # Классы для работы с упражнениями
-├── users.py            # Класс для управления пользователями
-├── workouts.py         # Класс для управления тренировками
-├── presets.py          # Класс для управления пресетами
-├── debugs.py            # Отладочные функции
-│
-├── screenshots/          
-│   ├── main_window.jpg
-│   ├── stats_window.jpg
-│   └── detailed_stats.jpg
-│
-└── user_data.db
+    
+    gymer/
+    ├── main.py              # Главный файл приложения
+    ├── exercises.py         # Классы для работы с упражнениями
+    ├── users.py            # Класс для управления пользователями
+    ├── workouts.py         # Класс для управления тренировками
+    ├── presets.py          # Класс для управления пресетами
+    ├── debugs.py            # Отладочные функции
+    │
+    ├── screenshots/          
+    │   ├── main_window.jpg
+    │   ├── stats_window.jpg
+    │   └── detailed_stats.jpg
+    │
+    └── user_data.db
 
 ## 🗄️ База данных
 
@@ -169,6 +169,6 @@ gymer/
 
 ## 📸 Скриншоты
 
-https://github.com/Geddity/gymer/blob/main/screenshots/main_window.jpg
-https://github.com/Geddity/gymer/blob/main/screenshots/stats_window.jpg
-https://github.com/Geddity/gymer/blob/main/screenshots/detailed_stats.jpg
+[![Главное окно](screenshots/thumbs/main_window_th.jpg)](screenshots/main_window.jpg)
+[![Статистика](screenshots/thumbs/stats_window_th.jpg)](screenshots/stats_window.jpg)
+[![Статистика 2](screenshots/thumbs/detailed_stats_th.jpg)](screenshots/detailed_stats.jpg)
