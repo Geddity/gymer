@@ -46,7 +46,7 @@
 
     bash
     
-    git clone https://github.com/yourusername/gymer.git
+    git clone https://github.com/Geddity/gymer.git
     cd gymer
 
 ### 2. Установка зависимостей
