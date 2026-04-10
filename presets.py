@@ -605,7 +605,7 @@ class PresetManager:
                                 else:
                                     weight_value = ex['weight']
 
-                                last_row.weight_entry.insert(0, weight_value)
+                                last_row.weight_entry.set_placeholder(weight_value)
                                 last_row.weight_entry.pack(side=tk.LEFT)
                                 last_row.weight_is_label = False
 
