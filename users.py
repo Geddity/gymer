@@ -87,6 +87,7 @@ class UserManager:
                 weight_mode TEXT,
                 weight TEXT,
                 repeats TEXT,
+                exercise_number,
                 FOREIGN KEY (user) REFERENCES users(user_name) ON DELETE CASCADE
             )
         ''')
